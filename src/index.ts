@@ -12,5 +12,5 @@ app.get('/', (_, res) => {
 app.use('/api/diaries', diaryRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Server listen on port ${PORT}`);
+  console.log(`Server listen on port ${PORT}`); // eslint-disable-line
 });
