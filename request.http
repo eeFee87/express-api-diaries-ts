@@ -11,8 +11,8 @@ POST http://localhost:3000/api/diaries
 Content-Type: application/json
 
 {
-  "date": "2021-04-04",
-  "weather": "sunny",
-  "visibility": "good",
-  "comment": "is a good day"
+  "date": "2024-08-08",
+  "weather": "rainy",
+  "visibility": "poor",
+  "comment": "is a bad day"
 }

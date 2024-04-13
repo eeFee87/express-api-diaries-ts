@@ -26,5 +26,96 @@
     "weather": "cloudy",
     "visibility": "good",
     "comment": "I almost failed the landing but I survived"
+  },
+  {
+    "id": 5,
+    "comment": "is a good day",
+    "date": "2021-04-04",
+    "weather": "sunny",
+    "visibility": "good"
+  },
+  {
+    "id": 6,
+    "comment": "is a bad day",
+    "date": "2021-08-08",
+    "weather": "rainy",
+    "visibility": "poor"
+  },
+  {
+    "id": 7,
+    "comment": "is a bad day",
+    "date": "2021-08-08",
+    "weather": "rainy",
+    "visibility": "poor"
+  },
+  {
+    "id": 8,
+    "comment": "is a bad day",
+    "date": "2021-08-08",
+    "weather": "rainy",
+    "visibility": "poor"
+  },
+  {
+    "id": 9,
+    "comment": "is a bad day",
+    "date": "2021-08-08",
+    "weather": "rainy",
+    "visibility": "poor"
+  },
+  {
+    "id": 10,
+    "comment": "is a bad day",
+    "date": "2021-08-08",
+    "weather": "rainy",
+    "visibility": "poor"
+  },
+  {
+    "id": 11,
+    "comment": "is a bad day",
+    "date": "2021-08-08",
+    "weather": "rainy",
+    "visibility": "poor"
+  },
+  {
+    "id": 12,
+    "comment": "is a bad day",
+    "date": "2021-08-08",
+    "weather": "rainy",
+    "visibility": "poor"
+  },
+  {
+    "id": 13,
+    "comment": "is a bad day",
+    "date": "2021-08-08",
+    "weather": "rainy",
+    "visibility": "poor"
+  },
+  {
+    "id": 14,
+    "comment": "is a bad day",
+    "date": "2021-08-08",
+    "weather": "rainy",
+    "visibility": "poor"
+  },
+  {
+    "id": 15,
+    "comment": "is a bad day",
+    "date": "20208-08",
+    "weather": "rainy",
+    "visibility": "poor"
+  },
+  {
+    "id": 16,
+    "comment": "is a bad day",
+    "date": "20208-08",
+    "weather": "rainy",
+    "visibility": "poor"
+  },
+  {
+    "id": 17,
+    "comment": "is a bad day",
+    "date": "20208-08",
+    "weather": "rainy",
+    "visibility": "poor"
   }
 ]

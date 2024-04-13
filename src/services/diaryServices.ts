@@ -1,7 +1,8 @@
 import type { DiaryEntry, NewDiaryEntry, NonSensitiveInfoDiaryEntry } from '../types';
 import diariesData from '../data/diaries.json';
+import fs from 'node:fs/promises';
 
-const diaries: DiaryEntry[] = diariesData as DiaryEntry[];
+const diaries = diariesData as DiaryEntry[];
 
 export const getEntries = (): DiaryEntry[] => diaries;
 
@@ -25,11 +26,15 @@ export const getEntriesWithoutSensitiveInfo = (): NonSensitiveInfoDiaryEntry[] =
   });
 };
 
-export const addDiary = (newDiaryEntry: NewDiaryEntry): DiaryEntry => {
+export const addDiary = async (newDiaryEntry: NewDiaryEntry): Promise<DiaryEntry> => {
   const newDiary = {
     id: diaries.length + 1,
     ...newDiaryEntry
   };
   diaries.push(newDiary);
+
+  const updatedData = JSON.stringify(diaries, null, 2);
+  await fs.writeFile('src/data/diaries.json', updatedData);
+
   return newDiary;
 };

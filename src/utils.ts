@@ -16,11 +16,11 @@ const parseDate = (dateFromRequest: any): string => {
 };
 
 const parseWeather = (weatherFromRequest: any): Weather => {
-  if (weatherFromRequest !== 'string' || !isWeather(weatherFromRequest)) {
+  if (typeof weatherFromRequest !== 'string' || !isWeather(weatherFromRequest)) {
     throw new Error('Incorrect or missing weather');
   }
 
-  return weatherFromRequest;
+  return weatherFromRequest as Weather;
 };
 
 const parseVisibility = (visibilityFromRequest: any): Visibility => {
